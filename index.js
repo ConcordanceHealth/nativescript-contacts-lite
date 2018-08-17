@@ -1,6 +1,6 @@
 let contacts = require("./contacts");
 let helper = require("./contacts-helper");
-
+/*
 exports.getContactsWorker = (fields,searchTerm=undefined,debug=false) => {
   return new Promise((resolve, reject) => {
     helper.handlePermission().then(() => {
@@ -34,7 +34,7 @@ exports.getContactsWorker = (fields,searchTerm=undefined,debug=false) => {
     }, (e) => { reject(e); }); // end of handlePermission
   }); // end of promise
 };
-
+*/
 exports.getContacts = (fields,searchTerm=undefined,debug=false) => {
   return new Promise((resolve, reject) => {
     helper.handlePermission().then(() => {
